@@ -32,3 +32,9 @@ with col2:
     st.write('Sii, las orcas son malas ;(')
   if modo == 'Ninguno':
     st.write('Ojalá no tuvieran ninguno')
+
+st.subheader("Uso de botones")
+if st.button('Presiona el botón'):
+  st.write('Gracias por presionar')
+else:
+  st.write('No has presionado aún')
