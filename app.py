@@ -5,7 +5,7 @@ st.title("Focas bebés")
 
 st.header("En este espacio voy a hablar de las focas bebés")
 st.write("Miren ahí hay una foca bebé")
-image = Image.open('foquitas.jpg')
+image = Image.open('foquita.jpg')
 
 st.write(image, caption='Una foca bebé en la naturaleza')
 
