@@ -38,3 +38,13 @@ if st.button('Presiona el botón si amas a las focas bebés'):
   st.write('Gracias por amar a las focas bebés')
 else:
   st.write('No has presionado aún')
+
+with st.sidebar:
+  st.subheader("Configura la modalidad")
+  mod_radio = st.radio(
+    "Escoge la modalidad a usar",
+    ("visual", "auditiva", "Háptica")
+  )
+
+
+
