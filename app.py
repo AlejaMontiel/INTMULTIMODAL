@@ -26,7 +26,7 @@ with col1:
 with col2:
   st.subheader("Ahora hablemos de sus depredadores")
   modo = st.radio("¿Qué depredadores tienen las focas?", ('Otras focas', 'Orcas', 'Ninguno'))
-  if modo == 'Otras focass':
+  if modo == 'Otras focas':
     st.write('Algunas veces sí :(')
   if modo == 'Orcas':
     st.write('Sii, las orcas son malas ;(')
